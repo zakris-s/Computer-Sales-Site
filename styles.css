@@ -1,0 +1,267 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    background: #555353;
+    color: #A4FFA3;
+    font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+
+.menu {
+    background: #333;
+    overflow: hidden;
+    padding-right: 40px;
+    padding-bottom: 15px;
+}
+
+.menu a {
+    color: white;
+    padding: 14px 16px;
+    float: left;
+    text-decoration: none;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu a:hover {
+    background: #D880FF;
+    color: black;
+}
+
+.menu a:active {
+    background: #A4FFA3;
+    color: black;
+}
+
+.admin_disable:hover {
+    /*use this code to "disable admin page"*/
+    background: #333;
+    color: white;
+}
+
+.login_btn {
+    height: 45px;
+    width: 75px;
+    background: #333;
+    border: 0px;
+    color: white;
+}
+
+.login_btn:hover {
+    background: #A4FFA3;
+    color: black;
+}
+
+.header {
+    padding-left: 50px;
+    background: #333;
+    color: #D880FF;
+    font-size: 30px;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.store_tbl {
+    width: 1500px;
+    height: 650px;
+    border: 5px solid #A4FFA3;
+    color: white;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.store_tbl th,
+td {
+    border: 3px solid white;
+}
+
+.store_tbl td {
+    padding-top: 5px;
+    padding-bottom: 8px;
+    align-items: center;
+    padding-left: 17px;
+    color: #A4FFA3;
+    font-size: 17px;
+}
+
+.store_tbl tr {
+    height: 250px;
+    align-items: center;
+}
+
+.store_msg {
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.store_input {
+    width: 35px;
+}
+
+.index_tbl {
+    width: 1500px;
+    height: 280px;
+    border: 5px solid #A4FFA3;
+    color: white;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.index_tbl th,
+td {
+    border: 3px solid white;
+}
+
+.index_tbl td {
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    color: #A4FFA3;
+    font-size: 17px;
+}
+
+.index_tbl tr {
+    height: 250px;
+}
+
+.login_tbl {
+    height: 450px;
+    width: 100%;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+.login_tbl td {
+    text-align: center;
+}
+
+.login_text {
+    padding-bottom: 100px;
+}
+
+.login_btn {
+    height: 45px;
+    width: 75px;
+    background: #333;
+    border: 0px;
+    color: white;
+}
+
+.login_btn:hover {
+    background: #A4FFA3;
+    color: black;
+}
+
+.cart_tbl {
+    height: 450px;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.cart_tbl td {
+    text-align: center;
+}
+
+.cart_text {
+    padding-bottom: 100px;
+}
+
+.cart_btn {
+    height: 45px;
+    width: 120px;
+    background: #333;
+    border: 0px;
+    color: white;
+}
+
+.cart_btn:hover {
+    background: #A4FFA3;
+    color: black;
+}
+
+.receipt_btn {
+    height: 45px;
+    width: 120px;
+    background: #333;
+    border: 0px;
+    color: white;
+}
+
+.receipt_btn:hover {
+    background: #A4FFA3;
+	color: black;
+}
+
+.cart_disp {
+    height: 450px;
+    width: 450px;
+    scroll-behavior: smooth;
+    resize: none;
+}
+
+.admin_msg {
+    text-align: center;
+    font-size: 20px;
+}
+
+.admin_tbl {
+    height: 650px;
+    width: 100%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.admin_tbl td {
+    text-align: center;
+}
+
+.admin_btn {
+    height: 45px;
+    width: 120px;
+    background: #333;
+    border: 0px;
+    color: white;
+}
+
+.admin_btn:hover {
+    background: #A4FFA3;
+    color: black;
+}
+
+.product_db_text {
+    height: 150px;
+    width: 350px;
+    scroll-behavior: smooth;
+    resize: none;
+}
+
+.sales_db_text {
+    height: 150px;
+    width: 350px;
+    scroll-behavior: smooth;
+    resize: none;
+}
+
+.search {
+    width: 298px;
+}
+
+.input {
+    font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+    background-color: #555353;
+    color: #A4FFA3;
+    border-width:0px;
+    border:none;
+    outline:none;
+    width: 170px;
+}
+
+label{
+    font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+    font-size: 14px;
+}

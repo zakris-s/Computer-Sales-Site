@@ -1,0 +1,7 @@
+
+Product Name: Turquoise Switches
+Price: 0.5
+Quantity: 3
+Total: 1.5
+-------------------------------------------------
+Grand Total: 1.5
